@@ -1,0 +1,21 @@
+{
+  "source": "personal synthetic experiment, November 2026; AI coding assistance",
+  "artifact_sha256": {
+    "artifacts/main/best.pt": "2a3ea4db8af95711329eb8878e6a532e52afe1d06df218a7cf8ccb88163e3ba2",
+    "artifacts/main/example_input.npy": "9b5708652f0a91e36b5288a9c85d7342a72d9f85bab7878699fff8077ba40a05",
+    "artifacts/main/example_logits.npy": "ff6735b3cd8137a4991d8b6abb5fa160780ad76f96cf890760ca5e1a8f1a6927",
+    "artifacts/main/input_rgb.npy": "a459b46c423a44b48324875b057514d11c755f2292fbb7ee231ca95f030e624d",
+    "artifacts/main/model.onnx": "5a54660b3b4fa92649e99e7d75c4ad985902772f6ff734d869e35855cb2823be"
+  },
+  "source_sha256": {
+    "src/toolloc/__init__.py": "1075a2ac619d2094cb1d865dadf82191d727b6431f3bef13b17af0f544439b2b",
+    "src/toolloc/evaluation.py": "1b80d3df6f36126d61f3646480dedbd71ea69da21ea3b2c0dfb08c113a5c8b74",
+    "src/toolloc/experiment.py": "26827f7c0b638cc6d1f0d7e0a9aa4b148b6d522dca0e477fb6f77ddfd86d5bf9",
+    "src/toolloc/model.py": "1118a539ef23fca885ee2588f707a5362a58999caac73bd4a1dc3404df6117ea",
+    "src/toolloc/predict.py": "2aba8d01ab3fc1f6ee873261e3a2e1e3997848f8a420774f3e111395d082f557",
+    "src/toolloc/synthetic.py": "19cb3cfdc0d20566cca642929e326d79b75f91b2bd1ec4952bdf61079796eee6",
+    "tests/test_confidence.py": "805c252516ad3cb37b2f5c58e51c5481358087fd0cd790b8ec7465b572f87d0b",
+    "tests/test_core.py": "b55ef3e19aa5ba15031f294ff1f7d28b3951ad1b29d2895291d779755e629d2e"
+  },
+  "limitations": "No real-robot or clinical validation; see docs/EXPERIMENT_DESIGN.md"
+}
